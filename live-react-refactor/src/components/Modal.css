@@ -1,0 +1,37 @@
+/* winning screen css style */
+.winning-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.winning-screen-content {
+  height: 150px;
+  width: 100%;
+  max-width: 300px; /* for when the viewport is bigger than 300px in web view */
+  background-color: #2a4544;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  margin: 10px;
+}
+
+.winning-screen-content button {
+  padding: 10px;
+  background-color: var(--turquiose);
+  color: #2a4544;
+  border-radius: 3px;
+}
